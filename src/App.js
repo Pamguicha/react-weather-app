@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Main from './Main';
+import Forecast from './Forecast';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+       <div className="city">
+<p className="intro"> The weather app</p>
+ <form>
+ <input type="text" placeholder="Enter your city here" />
+   <input className="btn" type="submit" value="Search" />
+        <input className="current" type="submit" value="Current" />
+  </form>
+   <Main />
+      <Forecast />
+</div>
+
   );
 }
 
