@@ -47,7 +47,7 @@ input[type="submit"] {
   color: rgb(255, 255, 255);
   width: 14%;
   padding: 12px 12px;
-  margin: 8px 0;
+  margin: 8px 3px;
   background-color: #8a5cbc;
   border: none;
   cursor: pointer;
@@ -61,22 +61,25 @@ input[type="submit"].btn:hover {
   background-color: #01beff;
 }
 
-input[type="button"] {
+input[type="button"]{
   color: rgb(255, 255, 255);
   width: 14%;
-  padding: 12px 12px;
-  margin: 8px 0;
-  background-color: #8a5cbc;
-  border: none;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  transition: all 200ms ease-in-out;
+   padding: 12px 12px;
+    margin: 8px 2px;
+    background-color: #8a5cbc;
+    border: none;
+     cursor: pointer;
+     box-shadow: 5px 5px 10px rgba(0,0,0,0.3) ;
+      transition: all 200ms ease-in-out;
+       
 }
 
-input[type="button"].currentBtn:hover {
-  opacity: 0.9;
-  cursor: pointer;
-  background-color: #70e83c;
+input[type="button"].currentbar:hover {
+   opacity: 0.9;
+   cursor: pointer;
+   background-color: #01beff;
 }
+
 
 input[type="text"] {
   font-size: 15px;
