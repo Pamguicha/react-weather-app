@@ -8,6 +8,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <div>
+         <small>
+        <a className="open-source" href="https://github.com/Pamguicha/first-git" target="_blank" rel="noreferrer" >
+            Open-source code, </a>
+        by Pamela Mardones
+    </small>
+    </div>
   </React.StrictMode>
 );
 

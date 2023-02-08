@@ -9,11 +9,13 @@ function App() {
  <form>
  <input type="text" placeholder="Enter your city here" />
    <input className="btn" type="submit" value="Search" />
-        <input className="current" type="submit" value="Current" />
+        <input className="currentBtn" type="submit" value="Current" />
   </form>
    <Main />
       <Forecast />
+      
 </div>
+
 
   );
 }

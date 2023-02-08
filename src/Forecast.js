@@ -6,7 +6,6 @@ export default function Forecast() {
     <div>
       <span> 5-day forecast </span>
       <hr />
-      <br />
       <table className="temperature">
         <tbody>
           <tr>
@@ -36,20 +35,20 @@ export default function Forecast() {
           </tr>
           <tr>
             <td>
-           <img className="icons-animated" src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/cloudy.svg"></img>
+           <img className="icons-animated" alt="cloudy day" src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/cloudy.svg"></img>
             </td>
             <td>
-          <img className="icons-animated" src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/partly-cloudy-day-rain.svg"></img>
+          <img className="icons-animated" alt="rainy day" src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/partly-cloudy-day-rain.svg"></img>
             </td>
             <td>
               {" "}
-           <img className="icons-animated" src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast-day.svg"></img>
+           <img className="icons-animated" alt="overcast day" src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast-day.svg"></img>
             </td>
             <td>
-            <img className="icons-animated" src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/drizzle.svg"></img>
+            <img className="icons-animated" alt="drizzle day" src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/drizzle.svg"></img>
             </td>
             <td>
-              <img className="icons-animated" src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/clear-day.svg"></img>
+              <img className="icons-animated" alt="clear day" src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/clear-day.svg"></img>
             </td>
           </tr>
         </tbody>

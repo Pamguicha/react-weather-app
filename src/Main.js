@@ -16,7 +16,7 @@ export default function Main() {
           </li>
         </ul>
         <h1>
-          {" "}
+           <img className="icons-animated" alt="clear day" src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/clear-day.svg"></img>
           <span className="space"> 28 </span>{" "}
           <span className="units">
             <a

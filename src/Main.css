@@ -80,3 +80,7 @@ span {
 .item2 {
   flex: auto;
 }
+
+.small-icons{
+    width: 20px;
+}
